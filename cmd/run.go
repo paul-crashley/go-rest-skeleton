@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/ankorstore/yokai-http-template/internal"
+	"github.com/paul-crashley/go-rest-skeleton/internal"
 	"github.com/spf13/cobra"
 )
 

@@ -1,4 +1,4 @@
-module github.com/ankorstore/yokai-http-template
+module github.com/paul-crashley/go-rest-skeleton
 
 go 1.23
 

@@ -1,7 +1,7 @@
 package internal
 
 import (
-	"github.com/ankorstore/yokai-http-template/internal/handler"
+	"github.com/paul-crashley/go-rest-skeleton/internal/handler"
 	"github.com/ankorstore/yokai/fxhttpserver"
 	"go.uber.org/fx"
 )

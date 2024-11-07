@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ankorstore/yokai-http-template/cmd"
+	"github.com/paul-crashley/go-rest-skeleton/cmd"
 )
 
 func main() {
