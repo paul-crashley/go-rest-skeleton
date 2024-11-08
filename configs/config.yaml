@@ -1,5 +1,5 @@
 app:
-  name: http-app
+  name: gopher-api
   version: 0.1.0
 modules:
   core:
@@ -59,3 +59,13 @@ modules:
   trace:
     processor:
       type: noop
+  orm:
+    driver: mysql
+    dsn: ${MYSQL_USER}:${MYSQL_PASSWORD}@tcp(${MYSQL_HOST}:${MYSQL_PORT})/${MYSQL_DATABASE}?parseTime=true
+    log:
+      enabled: true
+      level: info
+      values: true
+    trace:
+      enabled: true
+      values: true

@@ -16,6 +16,21 @@ services:
     env_file:
       - .env
 
+  http-app-database:
+    container_name: http-app-database
+    image: mysql:8
+    restart: always
+    networks:
+      - http-app-network
+    volumes:
+      - database-data:/var/lib/mysql
+    env_file:
+      - .env
+
 networks:
   http-app-network:
     driver: bridge
+
+volumes:
+  database-data:
+    driver: local
